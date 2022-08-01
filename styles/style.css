@@ -32,18 +32,25 @@
 }
 .header__title {
   width: 730px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
+  position: relative;
+  z-index: 3;
   font-weight: 600;
 }
 .header__subtitle {
+  margin-top:0;
+  margin-bottom:0;
   position: absolute;
   width: 388px;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
+  z-index: 3;
   font-weight: normal;
 }
 
@@ -57,6 +64,8 @@
   right: 0px;
   width: 765px;
   height: 608px;
+  object-fit: contain;
+  object-position:right bottom;
   z-index: 2;
 }
 .header__square-pic {
@@ -68,7 +77,7 @@
   z-index: 1;
   background: #2f80ed;
 }
-.discription {
+.description {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -80,17 +89,25 @@
 }
 .two-columns__bref {
   width: 175px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
 }
 .two-columns__paragraph {
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom:30px;
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
 }
+
+.two-columns__paragraph:last-of-type{
+  margin-bottom: 0;
+}
+
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
@@ -100,7 +117,7 @@
   font-weight: 600;
   line-height: 34px;
 }
-.digids{
+.digits{
   margin-top: 100px;
   margin-bottom:100px;
 }
@@ -142,7 +159,7 @@
   width: 250px;
 }
 .table__text {
-  margin-top: 20px;
+  margin-bottom: 0px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -154,7 +171,7 @@
   font-weight: 600;
 }
 .feynman {
-  height: 890px;
+  min-height: 890px;
   position: relative;
   background-color: #f2f2f2;
   background-image: url('../images/feynman.png');
@@ -205,7 +222,7 @@
     background-size: 877px 877px;
     position: absolute;
     width: 877px;
-    bottom: 0;
+    height: 877px;
     top: 0px;
     right: -210px;
     z-index: 1;
@@ -225,7 +242,7 @@
   margin: auto;
   text-align: center;
   width: 60%;
-  line-height: 32px;
+  line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
@@ -250,7 +267,6 @@
     margin-top: 80px;
 }
 .table__heading_theme_dark {
-  margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
