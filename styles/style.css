@@ -1,34 +1,4 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-}
-.header {
-  max-height: 756px;
-  height: 100vh;
-  min-height: 600px;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  background: #f2f2f2;
-  position: relative;
-}
 
-.logo {
-  display: block;
-  width: 228px;
-  height: 32px;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  background-image: url("../images/logo_place_header.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
 .header__title {
   width: 730px;
   margin-top: 0px;
@@ -67,7 +37,7 @@
   object-position: right bottom;
   z-index: 2;
 }
-.header__square-pic {
+.header__square-pic{
   position: absolute;
   right: 0px;
   width: 568px;
@@ -75,12 +45,13 @@
   top: 64px;
   z-index: 1;
   background: #2f80ed;
+  transform: rotate(360deg);
+  transition-duration:20s;
+  transition-timing-function:linear;
+  animation-iteration-count: infinite;
+
 }
-.description {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-}
+
 .two-columns {
   display: flex;
   justify-content: space-between;
@@ -339,4 +310,83 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+
+.techniques {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards {
+  display: flex;
+  position: relative;
+  margin:0 -100px 0 0;
+  padding:0;
+  flex-wrap: wrap;
+  list-style-type: none;
+  /* justify-content: space-between; */
+}
+.cards__item {
+  flex-basis: 0;
+  padding:60px 100px 0 0;
+}
+.cards__image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 43px;
+  margin-left: 40px;
+  margin-right:  40px;
+}
+.cards__title {
+  margin-bottom: 18px;
+  line-height: 1.15;
+  font-size: 26px;
+  font-weight: 600;
+}
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight:normal;
+  
+}
+.video__iframes {
+  margin-top: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+  display: flex;
+justify-content: center;
+margin-bottom: 160px;
+}
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.khan__container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.khan__quote {
+  width: 790px;
+  margin-top: 50px;
+  margin-bottom: 36px;
+}
+.khan__quote-author {
+  margin-bottom: 10px;
+}
+.khan__book-container {
+  margin-top: 68px;
+  display: flex;
+  flex-direction: row;
+}
+.khan__quote-author-subline{
+  margin-top: 0px;
+}
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
 }
