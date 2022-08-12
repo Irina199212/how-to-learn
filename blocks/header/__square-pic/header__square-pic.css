@@ -6,10 +6,6 @@
     top: 64px;
     z-index: 1;
     background: #2f80ed;
-    transform: rotate(360deg);
-    transition-duration:20s;
-    transition-timing-function:linear;
-    animation-iteration-count: infinite;
   }
   
   
