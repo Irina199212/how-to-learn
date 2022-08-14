@@ -4,4 +4,9 @@
   height: 32px;
   background-repeat: no-repeat;
   background-position: 0 0;
+  transition: opacity 250ms;
+}
+
+.logo:hover{
+  opacity: 0.5;
 }
