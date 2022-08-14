@@ -7,3 +7,7 @@
   align-items: center;
   font-weight: normal;
 }
+
+.footer__column-link:hover {
+  color: white;
+}
