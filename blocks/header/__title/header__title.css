@@ -1,13 +1,11 @@
 .header__title {
-    width: 730px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 64px;
-    line-height: 96px;
-    font-size: 102px;
-    position: relative;
-    z-index: 3;
-    font-weight: 600;
-  }
-  
-  
+  max-width: 730px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  position: relative;
+  z-index: 3;
+  font-weight: 600;
+}

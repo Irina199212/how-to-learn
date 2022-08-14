@@ -1,14 +1,14 @@
 .table_theme_dark {
-    display: flex;
-    flex-direction: row;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style-type: none;
-    z-index: 2;
-    position: relative;
-  }
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  z-index: 2;
+  position: relative;
+}

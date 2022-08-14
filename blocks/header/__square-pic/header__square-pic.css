@@ -1,11 +1,9 @@
-.header__square-pic{
-    position: absolute;
-    right: 0px;
-    width: 568px;
-    height: 568px;
-    top: 64px;
-    z-index: 1;
-    background: #2f80ed;
-  }
-  
-  
+.header__square-pic {
+  position: absolute;
+  right: 0px;
+  width: 568px;
+  height: 568px;
+  top: 64px;
+  z-index: 1;
+  background: #2f80ed;
+}
